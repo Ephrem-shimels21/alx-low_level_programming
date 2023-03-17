@@ -1,2 +1,0 @@
-gcc -E $CFILE
-gcc -E $CFILE -o c
