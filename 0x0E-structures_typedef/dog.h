@@ -3,6 +3,7 @@
  * @name: pointer
  * @age: float 
  * @owner:pointer 
+ */
 
 struct dog
 {
