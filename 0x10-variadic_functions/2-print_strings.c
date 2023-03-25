@@ -4,8 +4,8 @@
 
 /**
  * print_strings - prints strings
- * @separator - string symbol which separates the strings
- * @n - number of strings passed to the function
+ * @separator: string symbol which separates the strings
+ * @n:  number of strings passed to the function
  * Return: nothing
  */
 
@@ -22,9 +22,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (word == NULL)
 		{
-			printf("nil");
+			printf("(nil)");
 		}
-		printf("%s", word);
+		else
+		{
+			printf("%s", word);
+		}
 
 		if (separator != NULL && i != n - 1)
 		{
