@@ -1,5 +1,6 @@
 #ifndef MY_HEADER_FILE_H
 #define MY_HEADER_FILE_H
+#include <stddef.h>
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
 int int_index(int *array, int size, int (*cmp)(int));
