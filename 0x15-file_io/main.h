@@ -15,6 +15,7 @@ int append_text_to_file(const char *filename, char *text_content);
 
 /**
  * ELF header functions
+ * @e_ident: parameter
 */
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
